@@ -1,0 +1,28 @@
+.footer {
+  display: flex;
+  height: 45px;
+  justify-content: space-between;
+  align-items: center;
+  background: #e8e5dd;
+  font-family: "Open Sans Condensed", sans-serif;
+  letter-spacing: 0.5px;
+}
+.chat-button {
+  background: #e8e5dd;
+  height: 45px;
+  padding: 10px;
+  align-self: flex-end;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 17px;
+  border: none;
+}
+
+.chat-button:hover {
+  background: #aeaaa2;
+  cursor: pointer;
+}
+
+.copyright {
+  margin-left: 10px;
+}
+

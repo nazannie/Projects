@@ -1,0 +1,67 @@
+.home-header {
+  width: 100%;
+  background-color: #e8e5dd;
+  height: 110px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home-logo {
+  height: 80px;
+}
+
+
+.avatar {
+  display: flex;
+}
+
+.header-links {
+  color: black;
+  text-decoration: none;
+  padding: 0px 10px;
+  margin: 5px;
+  font-size: 18px;
+}
+
+.profile-btn {
+  min-width: 40px;
+  min-height: 40px;
+  border-radius: 30px;
+  margin: 5px;
+  border: 0.1px solid #3a6166;
+  background-color: #e8e5dd;
+}
+
+.profile-btn:hover {
+  background-color: rgb(208, 203, 195);
+  cursor: pointer;
+}
+
+.logout-btn {
+  min-width: 40px;
+  min-height: 40px;
+  border-radius: 30px;
+  margin: 5px;
+  border: 0.1px solid #3a6166;
+  background-color: #e8e5dd;
+}
+
+.logout-btn:hover {
+  background-color: rgb(208, 203, 195);
+  cursor: pointer;
+}
+
+.cat-search {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 130px;
+  color: gray;
+  background: #000;
+}
+
+.search-description {
+  margin: 20px;
+}

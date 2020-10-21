@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+.search-description {
+  color: #e8e5dd;
+  font-size: 17pt;
+  padding: 15px;
+  margin: 0;
+}
+
+.search-input {
+  height: 35px;
+  padding: 7px;
+  border-radius: 8px;
+  width: 500px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+}
+
+.search-button {
+  background-color: #757372;
+  padding: 7px;
+  margin: 0px 20px;
+  padding-bottom: 9px;
+  padding-top: 9px;
+  cursor: pointer;
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+}
+
+.search-button:hover {
+  background-color: grey;
+}

@@ -1,0 +1,28 @@
+.add-container {
+  background-color: #3a6166;
+  height: 110px;
+  margin-top: 15px;
+}
+
+.want-to-serve {
+  font-size: 17pt;
+  padding: 15px;
+}
+
+.add-button {
+  background-color: white;
+  font-size: 10px;
+  letter-spacing: 1px;
+  padding: 7px;
+  margin: 0px 20px;
+  padding-bottom: 9px;
+  padding-top: 9px;
+  cursor: pointer;
+  border-radius: 7px;
+  height: 30px;
+  width: 300px;
+}
+
+.add-button:hover {
+  background-color: #f4f1ea;
+}

@@ -1,0 +1,40 @@
+.title-input {
+  height: 35px;
+  width: 320px;
+  border-radius: 8px;
+  font-family: "Open Sans Condensed", sans-serif;
+  letter-spacing: 1.5px;
+  font-size: 20px;
+  margin: 25px 40px;
+  border: 1px solid #3a6166;
+  padding: 3px;
+}
+
+.description-textarea {
+  width: 500px;
+  border-radius: 8px;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 17px;
+  margin: 10px 40px;
+  border: 1px solid #3a6166;
+  height: 200px;
+}
+
+.add-post-btn {
+  color: whitesmoke;
+  font-weight: 400;
+  font-size: 17px;
+  background: #3a6166;
+  min-width: 180px;
+  min-height: 35px;
+  border-radius: 8px;
+  margin-left: 40px;
+  margin-top: 20px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.add-post-btn:hover {
+  background: #018080;
+}

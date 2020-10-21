@@ -1,0 +1,28 @@
+.cat-select {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #3a6166;
+  font-size: 18px;
+}
+
+.cat-select input {
+  background: #3a6166;
+  border: none;
+  border-radius: 0;
+  font-size: 20px;
+  padding: 20px;
+  font-family: "Open Sans Condensed", sans-serif;
+  color: whitesmoke;
+}
+
+.cat-select input.active {
+  background: #3a6166;
+}
+
+.cat-select input:hover {
+  cursor: pointer;
+  background: #2f5155;
+}

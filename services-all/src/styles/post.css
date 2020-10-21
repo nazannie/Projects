@@ -1,0 +1,120 @@
+.post {
+  width: 400px;
+  margin: 15px;
+}
+
+.title-window {
+  font-size: 15px;
+  width: 400px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  letter-spacing: 2px;
+  border-top-left-radius: 30%;
+  border-top-right-radius: 250%;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+.title-window > input {
+}
+
+.post-title {
+  padding: 8px;
+  font-size: 19px;
+  font-weight: bold;
+  width: 400px;
+  background-color: #cbc8bf;
+  font-family: "Open Sans Condensed", sans-serif;
+  text-align: center;
+  letter-spacing: 1px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 250%;
+  margin-top: 1px;
+}
+
+.description-window {
+  font-size: 13px;
+  min-width: 400px;
+  height: 120px;
+  background-color: #f4f1ea;
+  display: flex;
+  justify-content: center;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+.description-window:hover {
+  cursor: pointer;
+}
+
+.description-window > textarea {
+  width: 100%;
+  background: #e9e6e0;
+  border-radius: 0;
+
+  margin: 0;
+}
+
+.post-description {
+  margin: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 17px;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+.contact-phone {
+  display: flex;
+  font-weight: bold;
+  justify-content: space-around;
+  background: #cbc8bf;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.post-description.editing {
+  overflow: visible;
+}
+
+.post-description.deleting {
+  font-size: 25px;
+}
+
+.viewing {
+  overflow: auto;
+  font-weight: bold;
+}
+
+.post-btn-red {
+  background: #f4f1ea;
+  border: 1px solid rgb(205, 198, 198);
+  min-width: 70px;
+  min-height: 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 3px;
+}
+
+.post-btn-red:hover {
+  border: 1px solid rgb(230, 37, 37);
+  background: rgb(230, 37, 37);
+  color: white;
+  font-weight: bold;
+}
+
+.post-btn-green {
+  background: #f4f1ea;
+  border: 1px solid rgb(205, 198, 198);
+  min-width: 70px;
+  min-height: 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 3px;
+}
+
+.post-btn-green:hover {
+  border: 1px solid rgb(1, 133, 1);
+  background: rgb(1, 133, 1);
+  color: white;
+  font-weight: bold;
+}
